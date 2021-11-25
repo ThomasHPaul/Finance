@@ -4,7 +4,10 @@
     {
         static void Main()
         {
-            Console.WriteLine("It still works ;)");
+            string csvPath = @".\data\testReceipt.csv";
+            CsvUtil reader = new CsvUtil(csvPath);
+
+            reader.readColHeaders();
         }
     }
 }

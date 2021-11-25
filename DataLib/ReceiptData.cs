@@ -1,10 +1,7 @@
 namespace Finance
 {
-    public class ReceiptData : CsvFileData
+    public class ReceiptData// : CsvFileData
     {
-        public ReceiptData()
-        {
-            
-        }
+        
     }
 }
